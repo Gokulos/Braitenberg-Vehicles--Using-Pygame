@@ -6,5 +6,5 @@ this case, rs - ls gives a positive value, and when multiplied by -0.5,
 the result is negative, causing an anticlockwise turn. 
 for showing Aggression -- Change this line from this 
   rotation = (rs - ls) * self.rotation_scaling * -0.5
-  to this
+  to this in the move()
   rotation = (rs - ls) * self.rotation_scaling * 0.5
